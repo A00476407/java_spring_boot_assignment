@@ -18,6 +18,7 @@ This is a Java Spring Boot application which is connected to a remote MySQL data
 ## GET API
 - Get a list of available hotels
 - URL: localhost:8080/hotels
+![alt text](https://github.com/A00476407/java_spring_boot_assignment/blob/main/Screenshots/GET.png?raw=true)
 
 ## POST API
 - Add a hotel entry with JSON request body
@@ -29,6 +30,8 @@ This is a Java Spring Boot application which is connected to a remote MySQL data
     "location": "Halifax"
 }
 ```
+![alt text](https://github.com/A00476407/java_spring_boot_assignment/blob/main/Screenshots/POST.png?raw=true)
+![alt text](https://github.com/A00476407/java_spring_boot_assignment/blob/main/Screenshots/POST_result.png?raw=true)
 
 ## PUT API
 - Update a hotel data with JSON request body
@@ -40,7 +43,11 @@ This is a Java Spring Boot application which is connected to a remote MySQL data
     "location": "Halifax"
 }
 ```
+![alt text](https://github.com/A00476407/java_spring_boot_assignment/blob/main/Screenshots/PUT.png?raw=true)
+![alt text](https://github.com/A00476407/java_spring_boot_assignment/blob/main/Screenshots/PUT_result.png?raw=true)
 
 # DELETE API
 - Delete a hotel data
 - URL: localhost:8080/hotels/id
+![alt text](https://github.com/A00476407/java_spring_boot_assignment/blob/main/Screenshots/DELETE.png?raw=true)
+![alt text](https://github.com/A00476407/java_spring_boot_assignment/blob/main/Screenshots/DELETE_result.png?raw=true)
